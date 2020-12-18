@@ -96,5 +96,9 @@ def write_sheet(wb_obj, sheetname, doc_arr, headers):
     wb_obj["wb"].save(filename=f"{wb_obj['name']}")
 
 
+def format_numbers(wb_obj):
+    pass
+
+
 if __name__ == "__main__":
     main()
